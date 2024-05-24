@@ -18,7 +18,7 @@ URL = 'https://github.com/tgxs002/HPSv2'
 EMAIL = 'wangzhih02@gmail.com'
 AUTHOR = 'Zhiheng Wang et al.'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.2.0'
+VERSION = '1.2.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -131,7 +131,7 @@ setup(
     #     'console_scripts': ['mycli=mymodule:cli'],
     # },
     package_data={
-        'hpsv2': ['configs/*', 'assets/*', 'tests/**/*'],
+        'hpsv2': ['configs/*', 'assets/*', 'tests/**/*', 'src/open_clip/bpe_simple_vocab_16e6.txt.gz'],
         'hpsv2.src.open_clip': ['**/*'],
         'hpsv2.src.training': ['*']
     },
